@@ -1,0 +1,40 @@
+Browser sync: 
+    browser-sync start --server --directory --files "*"
+
+
+    https://jsfiddle.net
+    https://codepen.io/pen/tour/welcome/start
+
+
+Validator: 
+    https://validator.w3.org/#validate_by_upload
+
+Week 1: 
+     - title - required 
+     - meta - single 
+     - Always use <!DOCTYPE html>
+
+    Entity references: 
+     - help avoid rendering issues 
+     - safeguard against more limited char set encodings
+     - provide characters not available on keybord - copyright  
+     - < > & - nahrazovat &lt; $gt; &amp;
+     - &copy; - copyright 
+     - &nbsp; - not breaking space
+     - &quot; - "" 
+    
+    Creating links:
+        - Internal links 
+            - href - hypertext reference 
+                - relative, absolute url 
+                - target = _blank
+        - Fragment identifier 
+            - #section - id 
+            - 
+
+    Comments 
+        - <!-- bla bla -->
+    
+    Images:
+        - img src="picture.jpg" width="400" height="235" alt="Picture with a quote"
+        - img tag - inline 
